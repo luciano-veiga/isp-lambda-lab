@@ -1,0 +1,206 @@
+[
+  {
+    "cliente_id": "12345",
+    "nome": "João Silva",
+    "tipo": "residencial",
+    "historico_os": [
+      {
+        "os_id": "OS96173",
+        "tipo_os": "Troca de equipamento",
+        "data_abertura": "2026-06-27T23:20:09.844263"
+      },
+      {
+        "os_id": "OS97069",
+        "tipo_os": "Sem conexão",
+        "data_abertura": "2026-05-15T23:20:09.844263"
+      },
+      {
+        "os_id": "OS99936",
+        "tipo_os": "Troca de equipamento",
+        "data_abertura": "2026-07-21T23:20:09.844263"
+      },
+      {
+        "os_id": "OS98703",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-07-21T23:26:37.659001"
+      },
+      {
+        "os_id": "OS98666",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-07-21T23:27:52.949921"
+      },
+      {
+        "os_id": "OS93773",
+        "tipo_os": "Troca de equipamento",
+        "data_abertura": "2026-07-21T23:30:23.594237"
+      },
+      {
+        "os_id": "OS91509",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-07-21T23:31:38.917363"
+      },
+      {
+        "os_id": "OS96890",
+        "tipo_os": "Dúvida de fatura",
+        "data_abertura": "2026-07-21T23:32:39.179050"
+      }
+    ]
+  },
+  {
+    "cliente_id": "23456",
+    "nome": "Maria Oliveira",
+    "tipo": "residencial",
+    "historico_os": [
+      {
+        "os_id": "OS90011",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-06-01T09:00:00"
+      },
+      {
+        "os_id": "OS94309",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:26:52.714584"
+      },
+      {
+        "os_id": "OS97159",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:27:07.778196"
+      },
+      {
+        "os_id": "OS99655",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:27:37.886210"
+      },
+      {
+        "os_id": "OS98177",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-07-21T23:28:08.015108"
+      },
+      {
+        "os_id": "OS91399",
+        "tipo_os": "Sem conexão",
+        "data_abertura": "2026-07-21T23:28:53.207119"
+      },
+      {
+        "os_id": "OS95328",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-07-21T23:29:08.271479"
+      },
+      {
+        "os_id": "OS99989",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:31:08.788219"
+      },
+      {
+        "os_id": "OS97694",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-07-21T23:31:23.852555"
+      },
+      {
+        "os_id": "OS92578",
+        "tipo_os": "Dúvida de fatura",
+        "data_abertura": "2026-07-21T23:32:54.244468"
+      }
+    ]
+  },
+  {
+    "cliente_id": "34567",
+    "nome": "Pedro Souza",
+    "tipo": "residencial",
+    "historico_os": [
+      {
+        "os_id": "OS97891",
+        "tipo_os": "Troca de equipamento",
+        "data_abertura": "2026-07-21T23:29:23.336947"
+      },
+      {
+        "os_id": "OS90667",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:29:38.400424"
+      },
+      {
+        "os_id": "OS98023",
+        "tipo_os": "Troca de equipamento",
+        "data_abertura": "2026-07-21T23:30:38.659065"
+      }
+    ]
+  },
+  {
+    "cliente_id": "55521",
+    "nome": "XYZ Corp",
+    "tipo": "comercial",
+    "responsavel_ti_email": "ti@xyzcorp.com.br",
+    "sensores_prtg": [
+      "Link Principal - XYZ Corp"
+    ],
+    "historico_os": [
+      {
+        "os_id": "OS90535",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-07-21T23:30:53.724433"
+      },
+      {
+        "os_id": "OS90025",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-07-21T23:31:53.981867"
+      },
+      {
+        "os_id": "OS96292",
+        "tipo_os": "Lentidão",
+        "data_abertura": "2026-07-21T23:32:24.115022"
+      }
+    ]
+  },
+  {
+    "cliente_id": "55622",
+    "nome": "Comercial Alfa Ltda",
+    "tipo": "comercial",
+    "responsavel_ti_email": "suporte@alfa.com.br",
+    "sensores_prtg": [
+      "Link Fibra - Alfa Matriz",
+      "Link Backup - Alfa Matriz"
+    ],
+    "historico_os": [
+      {
+        "os_id": "OS91051",
+        "tipo_os": "Troca de equipamento",
+        "data_abertura": "2026-07-21T23:27:22.832386"
+      },
+      {
+        "os_id": "OS93140",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:28:23.079026"
+      },
+      {
+        "os_id": "OS99628",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:28:38.143377"
+      },
+      {
+        "os_id": "OS94073",
+        "tipo_os": "Troca de equipamento",
+        "data_abertura": "2026-07-21T23:29:53.464160"
+      },
+      {
+        "os_id": "OS90031",
+        "tipo_os": "Sem conexão",
+        "data_abertura": "2026-07-21T23:30:08.528830"
+      },
+      {
+        "os_id": "OS95648",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:32:09.046286"
+      },
+      {
+        "os_id": "OS91141",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:33:09.298583"
+      },
+      {
+        "os_id": "OS92128",
+        "tipo_os": "Instabilidade",
+        "data_abertura": "2026-07-21T23:33:24.364205"
+      }
+    ]
+  }
+]
