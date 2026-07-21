@@ -1,0 +1,12 @@
+# Segredos - NUNCA subir pro Git
+.env
+config.py
+
+# Dados gerados localmente
+metrics_log.csv
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
