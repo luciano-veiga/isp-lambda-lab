@@ -6,6 +6,8 @@ usando Lambdas reais rodando no **MiniStack** (emulador AWS local) e
 uma "aplicação cliente" que se autentica via token (API Key) para
 acionar esses eventos.
 
+![Arquitetura do lab](docs/screenshots/00-arquitetura.png)
+
 ## Arquitetura do lab
 
 ```
@@ -145,6 +147,26 @@ NOC correto conforme o turno (madrugada/manhã/tarde/noite).
 execução. Para voltar ao estado inicial, basta restaurar o arquivo
 original do lab (ou apagar o `historico_os` de cada cliente
 manualmente).
+
+## Evidências de execução
+
+Prints reais do lab rodando de ponta a ponta, do setup até o gatilho
+disparando nos dois processos.
+
+**1. Setup do MiniStack — Lambdas, API Gateway e token criados**
+![Setup do MiniStack](docs/screenshots/01-setup-ministack.png)
+
+**2. Container do MiniStack no ar**
+![Docker ps](docs/screenshots/02-docker-ps-ministack.png)
+
+**3. Gatilho de retenção disparado (IXC) — 3ª OS em 90 dias, prioridade ALTA**
+![Evento IXC](docs/screenshots/03-evento-ixc-gatilho-retencao.png)
+
+**4. Alarme PRTG identificando o operador do NOC do turno da madrugada**
+![Evento PRTG](docs/screenshots/04-evento-prtg-alerta-noc.png)
+
+**5. Simulação contínua — múltiplos eventos disparando em sequência**
+![Simulação contínua](docs/screenshots/05-simulacao-continua.png)
 
 ## Próximos passos (evolução do lab)
 
