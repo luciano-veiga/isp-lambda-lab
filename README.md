@@ -6,7 +6,7 @@ usando Lambdas reais rodando no **MiniStack** (emulador AWS local) e
 uma "aplicação cliente" que se autentica via token (API Key) para
 acionar esses eventos.
 
-![Arquitetura do lab](docs/screenshots/00-arquitetura.png)
+[Arquitetura do lab]<img width="690" height="572" alt="Diagrama drawio" src="https://github.com/user-attachments/assets/e942a9f1-0791-42b0-9b32-6409fdf872bb" />
 
 ## Arquitetura do lab
 
